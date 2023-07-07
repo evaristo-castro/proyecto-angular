@@ -1,0 +1,43 @@
+header{ 
+    position: fixed;
+    background-color: rgb(50, 6, 59);
+    width: 100%; 
+    height: 7%;
+    left: 0%;
+    top: 0%; 
+     }
+     .container-header{
+        display: flex; 
+     }
+     p{
+        left: 60px;
+        top: 8%;
+        color:rgb(103, 22, 224)
+     }
+
+     .container-input { 
+  
+        position:fixed;
+        margin-left: 2%;
+        top: 1%;
+        border-radius: 40px;
+        width: 17%; 
+        height: 5%; 
+    }
+    .container-buscar{
+       margin-left: 22%;
+    }
+    .btn-buscar{
+        color: #555555;
+        margin-right: 10%;
+        border-radius: 45px;
+        cursor: pointer;
+        margin-top: 12%;
+        display: flex;
+        width: 35%;
+          
+      }
+      .img-btnBuscar{
+        width: 60%;
+        height: 4%;
+      }
