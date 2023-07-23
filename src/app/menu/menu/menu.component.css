@@ -1,0 +1,17 @@
+.nav-top{
+   
+    margin-left: 8%;
+    top: 14%;
+    position:fixed;
+    z-index: 1;
+    border-radius: 15px;
+    width: 100%;
+    
+    background-color: rgb(252, 238, 238);
+
+    
+}
+.color-menu{
+    background-color: rgb(252, 238, 238); 
+    padding: 0%;  
+}

@@ -1,62 +1,88 @@
 .container-superHeader{ 
     position: fixed;
-    background-color: rgb(219, 87, 131);
-    width: 98%; 
-    height: 12%;
-    left: 1%;
-    right: 1%;
+    background-color: rgb(225, 184, 233);
+    width: 100%; 
+    height: 14%;
     top: 0%; 
-    
+    z-index: 1;
     border-radius: 10px 10px 0px 0px;
+    display: flex;
      }
      .container-header{
-        display: flex; 
+      
+         
      }
-     p{
-        left: 60px;
-        top: 8%;
-        color:rgb(251, 250, 253)
+     .container-logo{
+      margin-top: 1%;
+       width: 15%;
+       height: 10%;
+       
+
+     }
+     .container-input{
+      height: 40%;
+      width: 30%;
+
+    }
+    .container-buscar{
+      height: 15%;
+      width: 100%;
+    }
+    .container-logo-face{
+      height: 15%;
+      width: 100%;
+
+    }
+
+     .logo{
+      
+      width: 15%;
+      height: 8%;
+      position:fixed;
+     
+     }
+     .container-buscador{
+       margin-left: 25%;
      }
 
     input { 
   
       position:fixed;
-      margin-left: 40%;
-      margin-top: 2%;
+      margin-left: 25%;
+      margin-top: 0%;
       border-radius: 10px;
       width: 17%; 
       height: 5%; ;
        
   }
-
+button{
+   position:fixed;
+      margin-left: 40%;
+      margin-top: 0%;
+      border-color: black;
+      color: black;
+}
+button:hover{
+   background-color: hotpink;
+}
     .container-buscar{
        margin-left: 59%;
        width: 10%;
        margin-top: 1%;
         
     }
-    .btn-buscar{
-        color: #555555;
-        margin-right: 10%;
-        border-radius: 7px;
-        cursor: pointer;
-        margin-top: 13%;
-        width: 35%;
-          
-      }
-      .img-btnBuscar{
-        width: 60%;
-        height: 4%;
-      }
+    
+      
+      
       .img-redes-face{
-         width: 1%;
+         width: 2%;
          position: absolute;
          left: 92%;
          top: 30%;
       }
-      .container-logo-carroCompra{
-         width: 100%;
-         height: 85px;
-        
-        margin-left: 95%;        
-      }
+   .container-contacto{
+      margin-left: 60%;
+   }
+      
+     
+      
