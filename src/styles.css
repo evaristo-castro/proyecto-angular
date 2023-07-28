@@ -3,5 +3,11 @@ body {
 
     padding: 0%;
     background:rgb(252, 238, 238);
+    font-family: Open Sans,Arial,sans-serif
     
  }
+ @media screen and (max-width:600px){
+	body {
+		font-size:75%; 
+	} 
+} 

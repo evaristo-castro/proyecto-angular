@@ -10,6 +10,7 @@ import { MenuComponent } from './menu/menu/menu.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { CardPrincipalComponent } from './card-principal/card-principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { FormularioModule } from './formulario/formulario.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactoComponent } from './contacto/contacto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormularioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

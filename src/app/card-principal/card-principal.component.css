@@ -2,7 +2,7 @@
     text-align: center;
     position: relative;
     
-    
+ 
     
 }
 .columnas{
@@ -14,3 +14,15 @@
     padding: 0%;
     
 }
+@media screen and (max-width:480px){
+	.columnas {
+		display:block;
+	} 
+    .tamaño-img{
+        width: 100%;
+        padding: 0%;
+    }
+    .resp-card{
+        width: 100%;
+    }
+} 

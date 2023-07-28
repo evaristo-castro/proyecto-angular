@@ -8,10 +8,7 @@
     border-radius: 10px 10px 0px 0px;
     display: flex;
      }
-     .container-header{
-      
-         
-     }
+     
      .container-logo{
       margin-top: 1%;
        width: 15%;
@@ -48,7 +45,7 @@
     input { 
   
       position:fixed;
-      margin-left: 25%;
+      margin-left: 24%;
       margin-top: 0%;
       border-radius: 10px;
       width: 17%; 
@@ -83,6 +80,29 @@ button:hover{
    .container-contacto{
       margin-left: 60%;
    }
+   .hamburger-button{
+    margin-left: 1%;
+    display: none;
+   }
+
+   @media screen and (max-width:600px){ 
+    .container-buscador{
+      margin-left: 0%;
+    }
+   button{
+     margin-left: 40%;
+    }
+   input{
+    margin-left: 22%;
+   }
+   .hamburger-button{
+    margin-left: 1%;
+    display: block;
+   }
+   .nav-ul-carrito {
+    display: none; /* ocultar el menú en pantallas pequeñas */
+  }
+}
       
      
       
