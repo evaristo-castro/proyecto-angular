@@ -1,41 +1,44 @@
 <header class="container-superHeader container-header">
   
-
+    <!--logo-->
     <div class="container-logo"> 
+           <a routerLink="home"><img src="../../assets/image/imagen-header/nuevologo.png"  alt="logo-MAM" class="logo"></a>
      
-      <img src="../../assets/image/imagen-header/nuevologo.png" alt="logo-MAM" class="logo">
-        
     </div>
-    
-    <nav class="navbar navbar-light bg-light justify-content-between">
-      
-      <form class="form-inline container-buscador">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
-    </nav>
     
     
     <!--menu del header carrito-->
-    <nav class="navbar navbar-expand-lg  container-contacto">
-      <button class="hamburger-button">&#9776;</button>
-        <ul class="navbar-nav nav-ul-carrito">
-          <li class="">
-            <a class="nav-link" href="#">MI CUENTA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="contacto">CONTANTO</a>
-          </li>
-          <li class="nav-item carrito-header">
-           <a class="nav-link" href="#">CARRITO🛒</a>
-          </li>
-               
-        </ul>
-      
-    </nav>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
+    <div class="caja-div nav-buscador">
+        <nav class="navbar navbar-light justify-content-between w-100">
+          
+              <form class="form-inline container-buscador w-100">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+        </nav>
+    </div>
     
-   </header>
+    <!--menu del header carrito-->
+    <div class="caja-div nav-opcion">
+        <nav class="navbar navbar-expand-lg  container-contacto">
+        
+              <ul class="navbar-nav nav-ul-carrito">
+                  <li class="">
+                    <a class="nav-link" href="#">MI CUENTA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" routerLink="contactom">CONTANTO</a>
+                  </li>
+                  <li class="nav-item carrito-header">
+                  <a class="nav-link" href="#">CARRITO🛒</a>
+                  </li>
+                      
+              </ul>
+          
+        </nav>
+   </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </header>
    
