@@ -1,0 +1,24 @@
+{
+    "informacionFiltrarPagina":[
+
+        {
+            "titulo": "Reloj",
+            "imagen": "../../assets/image/cars pricipal/reloj-mujer.png",
+            "descripcion": "80.000"
+        },
+        {
+            "titulo": "Zapatos",
+            "imagen": "../../assets/image/cars pricipal/zapatos-gris.png",
+            "descripcion": "120.000"
+        },
+        {
+            "titulo": "Bolso",
+            "imagen": "../../assets/image/cars pricipal/bolso.png",
+            "descripcion": "140.000"
+        }
+
+    ]
+
+
+
+}

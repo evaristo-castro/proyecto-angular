@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Busqueda, BusquedaService } from '../servicio/busqueda.service';
+import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-card-principal',
-  templateUrl: './card-principal.component.html',
-  styleUrls: ['./card-principal.component.css']
+  selector: 'app-hombre-reloj',
+  templateUrl: './hombre-reloj.component.html',
+  styleUrls: ['./hombre-reloj.component.css']
 })
-export class CardPrincipalComponent {
+export class HombreRelojComponent {
   info$: Observable<Busqueda>;
   listado: any =[];
 
@@ -22,4 +22,5 @@ export class CardPrincipalComponent {
   event.preventDefault(); // Evita el comportamiento por defecto del formulario
   // Realiza aquí la lógica de envío del formulario
 }
+
 }

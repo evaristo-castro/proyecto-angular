@@ -2,23 +2,35 @@
 
 <section class="container mt-5 mb-3 section-car">
   
-  <h1>ACCESORIOS EXCLUSIVOS QUE <br> COMPLEMENTAN TU ESTILO</h1>
+  <h2>ACCESORIOS EXCLUSIVOS QUE <br> COMPLEMENTAN TU ESTILO</h2>
     <div class="columnas card-seccion resp-card">
         
-          <div class="card bg-body text-center text-black w-25 ">
+          <div *ngFor="let item of listado" class="card bg-body text-center text-black w-25 ">
                 <div class="card-header">
-                  <h1 class="card-title">RELOJ QQ</h1>
+                  <h3 class="card-title">{{item.titulo}}</h3>
                 </div>  
                 <div class="card-body">
-                  <img src="../../assets/image/cars pricipal/reloj-mujer.png" alt="" class="tamaño-img">
+                  <img [src]="item.imagen" alt="" class="tamaño-img">
                   
                 </div> 
                 <div class="card-footer"> 
-                  <h2>$80.000</h2>
+                  <h4>{{item.descripcion}}</h4>
                     <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#micuartomodal">Ver mas </a>
                     <!-- modal cuarta imagen-->
                  </div>
-           </div>   
+           </div>  
+           <!-- <div *ngFor="let item of listado" class="card" >
+  
+            <img [src]="item.imagen" alt="" class="tamaño-img">
+            
+            <div class="card-body">
+              <h5 class="card-title">{{item.titulo}}</h5>
+              <p class="card-text">{{item.descripcion}}</p>
+              <a href="www.google.com" class="btn btn-primary">ir</a>
+            </div>
+      
+           </div> 
+           
            <div class="card bg-body text-center text-black w-25">
             <div class="card-header">
               <h1 class="card-title">QQ</h1>
@@ -30,7 +42,7 @@
             <div class="card-footer"> 
               <h2>$80.000</h2>
                 <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#micuartomodal">Ver mas </a>
-                <!-- modal cuarta imagen-->
+                 modal cuarta imagen
              </div>
        </div>  
        <div class="card" style="width: 18rem;">
@@ -40,10 +52,9 @@
           <p class="card-text">Some quick ke up.</p>
           <a href="www.google.com" class="btn btn-primary">Go somewhere</a>
         </div>
+      </div>-->
       </div>
-      </div>
-          
-    
+       
 </section>
       
 

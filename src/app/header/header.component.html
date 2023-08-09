@@ -7,16 +7,19 @@
     </div>
     
     
-    <!--menu del header carrito-->
+    <!--buscador
+    
     <div class="caja-div nav-buscador">
         <nav class="navbar navbar-light justify-content-between w-100">
           
-              <form class="form-inline container-buscador w-100">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <form class="form-inline container-buscador w-100" (ngSubmit)="submitForm($event)">
+                <app-buscador></app-buscador>
+                buscador<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+               
               </form>
         </nav>
-    </div>
+    </div>-->
     
     <!--menu del header carrito-->
     <div class="caja-div nav-opcion">

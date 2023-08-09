@@ -1,0 +1,32 @@
+.container-buscador{
+    
+    margin-left: 60%;
+    
+    display: flex;
+    padding-top: 1%;
+}
+
+.sub-container-buscador{
+    margin-left: 0%;
+    width: 100%;
+}
+
+button:hover{
+    background-color: hotpink;
+ }
+ input { 
+       
+    margin-left: 5%;
+    margin-top: 0%;
+    border-radius: 10px;
+    width: 35%; 
+    
+}
+button { 
+       
+    margin-left: 1%;
+    margin-top: 0%;
+    border-radius: 10px;
+    width: 15%; 
+    
+}
