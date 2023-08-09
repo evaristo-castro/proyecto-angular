@@ -2,9 +2,14 @@
     "informacionFiltrarPagina":[
 
         {
-            "titulo": "Reloj",
+            "titulo": "Reloj QQ",
             "imagen": "../../assets/image/cars pricipal/reloj-mujer.png",
             "descripcion": "80.000"
+        },
+        {
+            "titulo": "Reloj SALCO",
+            "imagen": "../../assets/image/cars pricipal/salco.png",
+            "descripcion": "95.000"
         },
         {
             "titulo": "Zapatos",
