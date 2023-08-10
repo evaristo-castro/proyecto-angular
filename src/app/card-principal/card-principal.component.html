@@ -1,23 +1,22 @@
 
 
-<section class="container mt-5 mb-3 section-car">
+<section class="section-car">
   
-  <h2>ACCESORIOS EXCLUSIVOS QUE <br> COMPLEMENTAN TU ESTILO</h2>
+  <h3>ACCESORIOS EXCLUSIVOS QUE <br> COMPLEMENTAN TU ESTILO</h3>
     <div class="columnas card-seccion resp-card">
         
-          <div *ngFor="let item of listado" class="card bg-body text-center text-black w-25 ">
-                <div class="card-header">
-                  <h3 class="card-title">{{item.titulo}}</h3>
-                </div>  
-                <div class="card-body">
-                  <img [src]="item.imagen" alt="" class="tamaño-img">
-                  
+          <div *ngFor="let item of listado" class="card-seccion">
+                <div>
+                  <h4 class="">{{item.titulo}}</h4>
                 </div> 
-                <div class="card-footer"> 
-                  <h4>{{item.descripcion}}</h4>
-                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#micuartomodal">Ver mas </a>
+                <div>              
+                  <img [src]="item.imagen" alt="" class="tamaño-img">
+                </div> 
+               <div>
+                <h5>{{item.descripcion}}</h5>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#micuartomodal">Ver mas </a>
                     <!-- modal cuarta imagen-->
-                 </div>
+                </div>
            </div>  
            <!-- <div *ngFor="let item of listado" class="card" >
   
@@ -45,13 +44,7 @@
                  modal cuarta imagen
              </div>
        </div>  
-       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../../assets/image/cars pricipal/reloj-mujer.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick ke up.</p>
-          <a href="www.google.com" class="btn btn-primary">Go somewhere</a>
-        </div>
+       
       </div>-->
       </div>
        
